@@ -37,3 +37,13 @@ main {
 @media (max-width: 400px) {
   main { grid-template-columns: 1fr; }
 }
+
+.section {
+  margin-bottom: var(--space-5); /* 48px de espaçamento entre seções */
+}
+
+.card img {
+  margin-top: var(--space-2);
+  max-width: 200px;
+  display: block;
+}

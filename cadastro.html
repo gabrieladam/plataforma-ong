@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/components.css">
@@ -12,6 +13,8 @@
 </head>
 <body>
   <header>
+    <!-- Logo no topo -->
+    <img src="images/logo.png" alt="Logo da ONG Esperança" class="logo">
     <h1>Cadastro de Voluntários</h1>
     <nav>
       <button class="menu-toggle">☰</button>
@@ -24,10 +27,9 @@
   </header>
 
   <main>
-    <form action="#" method="post" class="form">
+    <form action="#" method="post" class="form" id="cadastroForm">
       <fieldset>
         <legend>Informações Pessoais</legend>
-
         <label for="nome">Nome Completo:</label>
         <input type="text" id="nome" name="nome" required>
 
@@ -49,7 +51,6 @@
 
       <fieldset>
         <legend>Endereço</legend>
-
         <label for="endereco">Endereço:</label>
         <input type="text" id="endereco" name="endereco" required>
 
@@ -73,5 +74,10 @@
   <footer>
     <p>&copy; 2025 ONG Esperança</p>
   </footer>
+
+  <!-- JS -->
+  <script src="js/app.js"></script>
+  <script src="js/formValidation.js"></script>
+  <script src="js/storage.js"></script>
 </body>
 </html>
