@@ -1,0 +1,39 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header, footer {
+  background: var(--color-primary);
+  color: white;
+  padding: var(--space-2);
+}
+
+main {
+  padding: var(--space-3);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--space-2);
+}
+
+/* Breakpoints */
+@media (max-width: 1200px) {
+  main { grid-template-columns: repeat(8, 1fr); }
+}
+
+@media (max-width: 992px) {
+  main { grid-template-columns: repeat(6, 1fr); }
+}
+
+@media (max-width: 768px) {
+  main { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (max-width: 576px) {
+  main { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 400px) {
+  main { grid-template-columns: 1fr; }
+}

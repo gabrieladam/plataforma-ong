@@ -4,11 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos Sociais</title>
+
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <header>
     <h1>Projetos Sociais</h1>
     <nav>
+      <button class="menu-toggle">☰</button>
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="projetos.html">Projetos</a></li>
@@ -18,21 +25,13 @@
   </header>
 
   <main>
-    <section>
+    <section class="card">
       <h2>Voluntariado</h2>
       <p>Descubra como participar e ajudar em nossos projetos.</p>
       <img src="images/voluntarios.jpg" alt="Voluntários em ação">
+      <button class="btn">Participar</button>
     </section>
 
-    <section>
+    <section class="card">
       <h2>Doações</h2>
-      <p>Contribua para nossas campanhas e ajude a transformar vidas.</p>
-      <img src="images/projeto1.jpg" alt="Projeto social em andamento">
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 ONG Esperança</p>
-  </footer>
-</body>
-</html>
+      <p>Contribua para nossas campanhas e ajude a transformar vidas

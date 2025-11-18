@@ -1,0 +1,79 @@
+nav ul {
+  list-style none;
+  display flex;
+  gap var(--space-2);
+}
+
+nav ul li {
+  position relative;
+}
+
+nav ul li ul {
+  display none;
+  position absolute;
+  background var(--color-neutral-100);
+  padding var(--space-2);
+}
+
+nav ul lihover ul {
+  display block;
+}
+
+ Menu hambúrguer 
+.menu-toggle {
+  display none;
+}
+
+@media (max-width 768px) {
+  nav ul {
+    display none;
+    flex-direction column;
+  }
+  .menu-toggle {
+    display block;
+    cursor pointer;
+  }
+  .menu-toggle.active + ul {
+    display flex;
+  }
+}
+
+
+.card {
+  background: white;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 8px;
+  padding: var(--space-3);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+button {
+  background: var(--color-primary);
+  color: white;
+  padding: var(--space-2) var(--space-3);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover { background: var(--color-secondary); }
+button:disabled { background: var(--color-neutral-300); cursor: not-allowed; }
+
+input, select {
+  border: 1px solid var(--color-neutral-300);
+  padding: var(--space-2);
+  border-radius: 4px;
+}
+input:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+
+.alert {
+  padding: var(--space-2);
+  border-radius: 4px;
+  margin: var(--space-2) 0;
+}
+.alert-success { background: #c8e6c9; color: #2e7d32; }
+.alert-error { background: #ffcdd2; color: #c62828; }

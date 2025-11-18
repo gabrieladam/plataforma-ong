@@ -4,11 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ONG Esperança</title>
+
+  <!-- Conexão com os arquivos CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <header>
     <h1>ONG Esperança</h1>
     <nav>
+      <button class="menu-toggle">☰</button>
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="projetos.html">Projetos</a></li>
@@ -18,18 +25,20 @@
   </header>
 
   <main>
-    <section>
+    <section class="card">
       <h2>Quem Somos</h2>
       <p>Somos uma organização dedicada a transformar vidas por meio de projetos sociais.</p>
       <img src="images/logo.png" alt="Logo da ONG">
+      <button class="btn">Saiba Mais</button>
     </section>
 
-    <section>
+    <section class="card">
       <h2>Contato</h2>
       <address>
         <p>Email: contato@ongesperanca.org</p>
         <p>Telefone: (41) 99999-9999</p>
       </address>
+      <button class="btn">Fale Conosco</button>
     </section>
   </main>
 
