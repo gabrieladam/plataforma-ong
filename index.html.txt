@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Esperança</title>
+</head>
+<body>
+  <header>
+    <h1>ONG Esperança</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Quem Somos</h2>
+      <p>Somos uma organização dedicada a transformar vidas por meio de projetos sociais.</p>
+      <img src="images/logo.png" alt="Logo da ONG">
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <address>
+        <p>Email: contato@ongesperanca.org</p>
+        <p>Telefone: (41) 99999-9999</p>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ONG Esperança</p>
+  </footer>
+</body>
+</html>

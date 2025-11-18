@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos Sociais</title>
+</head>
+<body>
+  <header>
+    <h1>Projetos Sociais</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Voluntariado</h2>
+      <p>Descubra como participar e ajudar em nossos projetos.</p>
+      <img src="images/voluntarios.jpg" alt="Voluntários em ação">
+    </section>
+
+    <section>
+      <h2>Doações</h2>
+      <p>Contribua para nossas campanhas e ajude a transformar vidas.</p>
+      <img src="images/projeto1.jpg" alt="Projeto social em andamento">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ONG Esperança</p>
+  </footer>
+</body>
+</html>
